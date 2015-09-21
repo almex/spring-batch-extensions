@@ -5,10 +5,11 @@ Some of interesting classes :
 * `CompositeItemStreamReader`
 * `ItemStreamItemReaderDelegator`
 * `AbstractItemCountingItemStreamItemWriter`
-* `SortedItemStreamWriter`
+* `SortedItemStreamWriter` I have to argue this because it's at the opposite of batch principles (the reader should sort content)
 * `ExcelSheetItemReader`
 * `ExcelSheetItemWriter`
-* `MdcThreadPoolExecutor`
-* `MdcThreadPoolTaskExecutor`
+* `CompositeJobParametersExtractor` and all other extra JobParametersExtractor
+* `MdcThreadPoolExecutor` not based on my own code (I should ask to the author first)
+* `MdcThreadPoolTaskExecutor` not based on my own code (I should ask to the author first)
 * `ExecutionContextDemotionListener`
 * `ResourceLocator` and all the concept behind
